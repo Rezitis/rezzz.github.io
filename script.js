@@ -1,5 +1,5 @@
 let firstClickDone = false;
-const correctCode = "σουσου";
+const correctCode = "μελισσας";
 
 function firstClick() {
     if (!firstClickDone) {
@@ -24,7 +24,7 @@ function openGift() {
     
     setTimeout(() => {
         giftBox.style.display = 'none';
-        document.getElementById('message').innerText = "στειλε βυζ";
+        document.getElementById('message').innerText = "εισαι κακος στο σιτζ";
         document.getElementById('message').classList.remove('hidden');
     }, 1000);
 }
